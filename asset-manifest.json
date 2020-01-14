@@ -1,32 +1,31 @@
 {
   "files": {
     "main.css": "//mihini.github.io/cn/static/css/main.9819eb04.chunk.css",
-    "main.js": "//mihini.github.io/cn/static/js/main.1243ae62.chunk.js",
-    "main.js.map": "//mihini.github.io/cn/static/js/main.1243ae62.chunk.js.map",
+    "main.js": "//mihini.github.io/cn/static/js/main.26f1fb73.chunk.js",
+    "main.js.map": "//mihini.github.io/cn/static/js/main.26f1fb73.chunk.js.map",
     "runtime-main.js": "//mihini.github.io/cn/static/js/runtime-main.e3112f0e.js",
     "runtime-main.js.map": "//mihini.github.io/cn/static/js/runtime-main.e3112f0e.js.map",
-    "static/js/2.c13f0036.chunk.js": "//mihini.github.io/cn/static/js/2.c13f0036.chunk.js",
-    "static/js/2.c13f0036.chunk.js.map": "//mihini.github.io/cn/static/js/2.c13f0036.chunk.js.map",
+    "static/js/2.2c4a3c24.chunk.js": "//mihini.github.io/cn/static/js/2.2c4a3c24.chunk.js",
+    "static/js/2.2c4a3c24.chunk.js.map": "//mihini.github.io/cn/static/js/2.2c4a3c24.chunk.js.map",
     "index.html": "//mihini.github.io/cn/index.html",
-    "precache-manifest.ef83a76b5ceb43d3bc6331e1f8c1e774.js": "//mihini.github.io/cn/precache-manifest.ef83a76b5ceb43d3bc6331e1f8c1e774.js",
+    "precache-manifest.35614c0a8f80d96f6a9c7dcf6825da0e.js": "//mihini.github.io/cn/precache-manifest.35614c0a8f80d96f6a9c7dcf6825da0e.js",
     "service-worker.js": "//mihini.github.io/cn/service-worker.js",
     "static/css/main.9819eb04.chunk.css.map": "//mihini.github.io/cn/static/css/main.9819eb04.chunk.css.map",
-    "static/js/2.c13f0036.chunk.js.LICENSE": "//mihini.github.io/cn/static/js/2.c13f0036.chunk.js.LICENSE",
+    "static/js/2.2c4a3c24.chunk.js.LICENSE": "//mihini.github.io/cn/static/js/2.2c4a3c24.chunk.js.LICENSE",
     "static/media/Filter.module.css": "//mihini.github.io/cn/static/media/arrow.1b46a122.svg",
     "static/media/SalonHeader.module.css": "//mihini.github.io/cn/static/media/heart.7c6c893d.svg",
     "static/media/clock.svg": "//mihini.github.io/cn/static/media/clock.b29eb6b8.svg",
     "static/media/filter.svg": "//mihini.github.io/cn/static/media/filter.4c9473f8.svg",
     "static/media/index.css": "//mihini.github.io/cn/static/media/font-bureau.aff4e59d.otf",
     "static/media/globe.svg": "//mihini.github.io/cn/static/media/globe.2ffa8a52.svg",
-    "static/media/logo.svg": "//mihini.github.io/cn/static/media/logo.5d5d9eef.svg",
     "static/media/phone.svg": "//mihini.github.io/cn/static/media/phone.5bad3fe9.svg",
     "static/media/pin.svg": "//mihini.github.io/cn/static/media/pin.518eebec.svg",
     "static/media/Rating.module.css": "//mihini.github.io/cn/static/media/stargold.9a5d93ab.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e3112f0e.js",
-    "static/js/2.c13f0036.chunk.js",
+    "static/js/2.2c4a3c24.chunk.js",
     "static/css/main.9819eb04.chunk.css",
-    "static/js/main.1243ae62.chunk.js"
+    "static/js/main.26f1fb73.chunk.js"
   ]
 }

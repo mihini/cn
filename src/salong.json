@@ -1,0 +1,85 @@
+[{
+    "id": 1,
+    "name": "Sax & Fön",
+    "address": {
+      "rd": "Rådmansgatan 46",
+      "zip": "113 57 Stockholm"
+    },
+    "session": "30 min",
+    "price": 320,
+    "rating": {
+      "points": 3,
+      "totalReviews": 54
+    },
+    "openingHour": {
+      "weekday": "19:00",
+      "weekend": "16:00"
+    },
+    "phone": "08-12345567",
+    "url": "www.salongweb.se",
+    "info": "Lorem ipsum"
+  },
+  {
+    "id": 2,
+    "name": "Saxis",
+    "address": {
+      "rd": "Rådmansgatan 26",
+      "zip": "113 57 Stockholm"
+    },
+    "session": "30 min",
+    "price": 320,
+    "rating": {
+      "points": 4,
+      "totalReviews": 32
+    },
+    "openingHour": {
+      "weekday": "19:00",
+      "weekend": "16:00"
+    },
+    "phone": "08-12345567",
+    "url": "www.google.se",
+    "info": "Lorem ipsum"
+  },
+  {
+    "id": 3,
+    "name": "hihi",
+    "address": {
+      "rd": "Rådmansgatan 26",
+      "zip": "113 57 Stockholm"
+    },
+    "session": "30 min",
+    "price": 700,
+    "rating": {
+      "points": 5,
+      "totalReviews": 32
+    },
+    "openingHour": {
+      "weekday": "19:00",
+      "weekend": "16:00"
+    },
+    "phone": "08-12345567",
+    "url": "www.google.se",
+    "info": "Lorem ipsum"
+  },
+  {
+    "id": 4,
+    "name": "hii",
+    "address": {
+      "rd": "Rådmansgatan 26",
+      "zip": "113 57 Stockholm"
+    },
+    "session": "30 min",
+    "price": 1200,
+    "rating": {
+      "points": 5,
+      "totalReviews": 32
+    },
+    "openingHour": {
+      "weekday": "19:00",
+      "weekend": "16:00"
+    },
+    "phone": "08-12345567",
+    "url": "www.google.se",
+    "info": "Lorem ipsum"
+  }
+]

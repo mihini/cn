@@ -1,0 +1,79 @@
+.wrapper {
+  width: 100%;
+  height: 251px;
+  background-image: url(../../images/hair.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+
+}
+
+@media only screen and (min-width: 992px) {
+  .wrapper {
+    height: 400px;
+  }
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.flex {
+  display: flex;
+}
+
+.topIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 33px;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.like {
+  display: block;
+  width: 34px;
+  height: 33px;
+  background-image: url(../../images/icons/heart.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.backArrow {
+  display: block;
+  width: 18px;
+  height: 27px;
+  background-image: url(../../images/icons/arrowbig.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.backArrow:hover {
+  cursor: pointer;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 22px;
+}
+
+.text h1 {
+  padding: 0 0 10px;
+  text-align: left;
+}

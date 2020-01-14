@@ -1,0 +1,37 @@
+.salon {}
+
+.infoItem {
+  border-bottom: 1px solid #eeeeee;
+  padding: 14px 0;
+  font-size: 15px;
+  color: #202020;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.last {
+  border-bottom: none;
+}
+
+
+
+.infoItem a {
+  color: #202020;
+  text-decoration: none;
+}
+
+.infoItem img {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.infoItem p {
+  margin: 0;
+}
+
+.infoItem .drop {
+  margin: 0 20px;
+  transform: rotate(-90deg);
+}

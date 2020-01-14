@@ -1,0 +1,28 @@
+.rating {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.stars {
+  display: inline-block;
+}
+
+.star {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background-image: url(../../images/icons/stargold.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.filled {
+  background-image: url(../../images/icons/star.svg);
+}
+
+.small {
+  height: 9px;
+  width: 9px;
+}

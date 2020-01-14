@@ -1,0 +1,53 @@
+.listItem {
+  border-bottom: 2px solid #eeeeee;
+  padding: 11px 0 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.wrapperAlpha {
+  flex: 1 0 50%;
+}
+
+.wrapperBeta {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1 0 40%;
+  text-align: right;
+}
+
+.title {
+  padding: 0;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.address {
+  margin-top: 10px;
+}
+
+.price {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.session {
+  color: #656565;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.iconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  margin-left: 30px;
+  transform: rotate(-90deg);
+}

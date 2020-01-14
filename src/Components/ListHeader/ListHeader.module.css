@@ -1,0 +1,28 @@
+.listHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #b69f58;
+}
+
+.noStyleBtn {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.noStyleBtn:focus {
+  outline: none;
+}
+
+.arrow {
+  height: 19px;
+  width: 19px;
+  transform: rotate(90deg);
+}
+
+.setting {
+  height: 19px;
+  width: 19px;
+}

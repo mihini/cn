@@ -1,0 +1,31 @@
+.filter {
+  border-bottom: 0.5px solid #b69f58;
+}
+
+
+.select {
+  margin: 16px 0;
+  border: none;
+  background: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  width: 100%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url(../../images/icons/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+}
+
+.select:focus {
+  outline: none;
+}
+
+.select:hover {
+  cursor: pointer;
+}
+
+.select option {
+  width: 100%;
+}

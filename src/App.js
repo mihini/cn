@@ -1,11 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import salon from "./salong.json";
+import List from "./Components/List";
+import Salon from "./Components/Salon";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams
+} from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
+      <Router>
+        <Switch>
+          <Route
+            path="/salon/:id"
+            render={props => <Salon {...props} salon={salon} />}
+          ></Route>
+          <Route path="/" render={props => <List {...props} salon={salon} />} />
+        </Switch>
+        {/* <List salon={salon}></List> */}
+        {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,9 +38,10 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      </Router>
     </div>
   );
-}
+};
 
 export default App;

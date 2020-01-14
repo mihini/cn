@@ -3,12 +3,12 @@ import "./App.css";
 import salon from "./salong.json";
 import List from "./Components/List";
 import Salon from "./Components/Salon";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <div className="App">
-      <Router>
+      <HashRouter basename="/">
         <Switch>
           <Route
             path="/salon/:id"
@@ -16,7 +16,7 @@ const App = () => {
           ></Route>
           <Route path="/" render={props => <List {...props} salon={salon} />} />
         </Switch>
-      </Router>
+      </HashRouter>
     </div>
   );
 };

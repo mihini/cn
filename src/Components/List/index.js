@@ -71,7 +71,7 @@ class List extends Component {
           <Link
             className={styles.itemLink}
             key={`salon-${index}`}
-            to={`/salon/${salonInfo.id}`}
+            to={`salon/${salonInfo.id}`}
           >
             <ListItem info={salonInfo}></ListItem>
           </Link>

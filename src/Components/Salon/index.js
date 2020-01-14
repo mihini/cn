@@ -8,6 +8,7 @@ import arrow from "../../images/icons/arrow.svg";
 import SalonHeader from "../SalonHeader";
 import SalonMenu from "../SalonMenu";
 import styles from "./Salon.module.css";
+import "core-js/modules/es.array.find";
 
 const getSpecificSalon = props => {
   const salonId = props.match.params.id;

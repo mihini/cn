@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "346a5121b2070b0a2e6b4619ebc0c2ef",
+    "revision": "0f06cf4502c889243f67331519e63fbe",
     "url": "//mihini.github.io/cn/index.html"
   },
   {
-    "revision": "4248dd0fa272a99c66d7",
+    "revision": "b3d14a4691e4eeda4b25",
     "url": "//mihini.github.io/cn/static/css/main.9819eb04.chunk.css"
   },
   {
-    "revision": "82e1691be6b5ece4d1f7",
-    "url": "//mihini.github.io/cn/static/js/2.bcea6f24.chunk.js"
+    "revision": "8dddc46db00fd698b9a2",
+    "url": "//mihini.github.io/cn/static/js/2.d6060cf4.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "//mihini.github.io/cn/static/js/2.bcea6f24.chunk.js.LICENSE"
+    "url": "//mihini.github.io/cn/static/js/2.d6060cf4.chunk.js.LICENSE"
   },
   {
-    "revision": "4248dd0fa272a99c66d7",
-    "url": "//mihini.github.io/cn/static/js/main.9e7ee0e5.chunk.js"
+    "revision": "b3d14a4691e4eeda4b25",
+    "url": "//mihini.github.io/cn/static/js/main.5773606f.chunk.js"
   },
   {
     "revision": "9411b20ea6dbd78abdb9",

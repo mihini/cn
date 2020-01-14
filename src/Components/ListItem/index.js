@@ -7,23 +7,6 @@ import arrow from "../../images/icons/arrow.svg";
 const ListItem = props => {
   const salon = props.info;
 
-  const starRatings = () => {
-    let stars = [];
-    for (let i = 1; i <= 5; i++) {
-      if (salon.rating.points < i) {
-        stars.push(
-          <div
-            className={`${styles.filled} ${styles.star}`}
-            key={`star-${i}`}
-          ></div>
-        );
-      } else {
-        stars.push(<div className={styles.star} key={`star-${i}`}></div>);
-      }
-    }
-    return stars;
-  };
-
   return (
     <div className={`${styles.listItem} container`}>
       <div className={styles.wrapperAlpha}>
